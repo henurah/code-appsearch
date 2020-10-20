@@ -68,3 +68,5 @@ Finally, start the app in development mode:
 npm start
 ```
 You should have a working search box with autocomplete and filtering capabilities.  Please see this [blog post](https://www.elastic.co/blog/how-to-build-great-react-search-experiences-quickly?baymax=elastic-web&elektra=blog&rogue=searchui-ga-announcement) for more information on how to customize and extend the UI.
+
+![Search UI Screenshot](/images/screenshot01.png)
