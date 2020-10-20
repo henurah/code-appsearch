@@ -14,7 +14,7 @@ or
 bin/logstash-plugin update 
 bin/logstash-plugin update logstash-output-elastic_app_search
 ```
-Modify the [Logstash config file](logstash/full-file.conf) in the following locations:
+Modify the [Logstash config file](logstash/full_file.conf) in the following locations:
 - input->file->path should point to the top level directory of your source code repository
 ```
 input {
