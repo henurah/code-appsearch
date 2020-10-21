@@ -39,7 +39,10 @@ filter {
                 drop { }
         }
 ```
-Additional metadata fields can be created in the filter clause, if desired. 
+Additional metadata fields can be created in the filter clause, if desired.  Run Logstash to start sending files to App Search:
+```
+bin/logstash -f path/to/full_file.conf
+```
 ## Search-ui Setup
 ### Prerequisites
 Search-ui is a library of [React](https://reactjs.org/) components and requires that [Node.js/npm be installed](https://www.npmjs.com/get-npm).  The host that will run these web-based components needs access to the App Search endpoint and must also be rearchable by any users who want to leverage the application (default port is 3000).  
